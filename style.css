@@ -3,6 +3,24 @@
   background-color: #3D3935;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+img {
+  width: 20%;
+}
 
+.boton {
+    display: inline-block;
+    padding: 1em 3em;
+    border: 0;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #14e6d3, #8660f5);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+    color: #fff;
+    text-align: center;
+    
+}
